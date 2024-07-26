@@ -2,8 +2,8 @@ import Image from "next/image";
 
 function Steps() {
   return (
-    <div className="mt-[124px] w-screen px-4 md:px-0 h-fit md:h-[462px] flex flex-col  items-center bg-white ">
-      <div className=" text-[20px] md:text-[32px] mt-[40px] max-md:text-center ">
+    <div className="mt-[124px] w-screen px-4 md:px-0 h-fit md:pb-[60px] flex flex-col   items-center bg-white ">
+      <div className=" text-[20px] md:text-[32px] mt-[40px]  max-md:text-center ">
         Get Your Virtual Office Up and Running in 3 Easy Steps!
       </div>
       <div className="mt-[20px] md:mt-[38px] text-[16px] md:text-[20px] text-[#2E2E2E]">

@@ -27,6 +27,13 @@ body{ font-family: 'Montserrat', sans-serif;
     height: 993px;
     width: 100vw;
 }
+.footer{
+  background-image: url("./assets/Footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 579px;
+  width: 100vw;
+}
 
 .gradient-text {
   background: -webkit-linear-gradient(270deg, #22417A 0%, #3F78E0 100%);
