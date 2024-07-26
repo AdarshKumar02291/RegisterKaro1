@@ -2,32 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body{ font-family: 'Montserrat', sans-serif; 
+ 
+    overflow-x: hidden;
+    
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hero{
+    background-image: url("../../public/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 993px;
+    width: 100vw;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.gradient-text {
+  background: -webkit-linear-gradient(270deg, #22417A 0%, #3F78E0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.bordercorner{
+  border-top-left-radius: 15px;  /* Top-left corner */
+  border-top-right-radius: 15px; /* Top-right corner */
+  border-bottom-left-radius: 0px; /* Bottom-left corner */
+  border-bottom-right-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body{ font-family: 'Montserrat', sans-serif; 
+ 
+    overflow-x: hidden;
+    
+}
+  .hero{background-size: cover;
+    width: 100dvw;
+    background-repeat: no-repeat;
+    height: fit-content;
   }
 }
