@@ -30,7 +30,7 @@ function Steps() {
           </div>
           <div className="text-[14px] mt-[20px]">
             Reach out to our friendly customer support team through chat, email,
-            or phone. They'll guide you through the process.
+            or phone. They&apos;ll guide you through the process.
           </div>
         </div>
         <div className="w-[318px] flex flex-col items-center justify-center text-center">
@@ -53,7 +53,7 @@ function Steps() {
           </div>
           <div className="text-[14px] mt-[20px]">
             Reach out to our friendly customer support team through chat, email,
-            or phone. They'll guide you through the process.
+            or phone. They&apos;ll guide you through the process.
           </div>
         </div>
         <div className="w-[318px] flex flex-col items-center justify-center text-center">
@@ -76,7 +76,7 @@ function Steps() {
           </div>
           <div className="text-[14px] mt-[20px]">
             Reach out to our friendly customer support team through chat, email,
-            or phone. They'll guide you through the process.
+            or phone. They&apos;ll guide you through the process.
           </div>
         </div>
         <div className="absolute left-56"><Image src= "https://i.ibb.co/Y7cVVQJ/Ellipse-79.png" alt="" width={248} height={28}></Image></div>

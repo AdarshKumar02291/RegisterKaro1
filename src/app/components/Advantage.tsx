@@ -18,10 +18,10 @@ function Advantage() {
               Accessible. Affordable. Adaptable
             </div>
             <div className="mt-[12px]">
-              Whether you're an established enterprise or a scaling startup,
-              your Virtual office should drive your business forward. Our
-              virtual office solutions take your business places! (Accessible.
-              Affordable. Adaptable)
+              Whether you&apos;re an established enterprise or a scaling
+              startup, your Virtual office should drive your business forward.
+              Our virtual office solutions take your business places!
+              (Accessible. Affordable. Adaptable)
             </div>
           </div>
           <div className=" flex flex-wrap justify-between mt-[34px]">
@@ -67,9 +67,9 @@ function Advantage() {
                     Proffesional Image & Enhanced Credibility{" "}
                   </div>
                   <div className="text-[12px] text-[#6B6B6BDE] mt-[5px]">
-                    Elevate your company's image and attract top talent with a
-                    professional virtual address for websites, business cards,
-                    and marketing materials.
+                    Elevate your company&apos;s image and attract top talent
+                    with a professional virtual address for websites, business
+                    cards, and marketing materials.
                   </div>
                 </div>
               </div>
@@ -116,9 +116,9 @@ function Advantage() {
                     Proffesional Image & Enhanced Credibility{" "}
                   </div>
                   <div className="text-[12px] text-[#6B6B6BDE] mt-[5px]">
-                    Elevate your company's image and attract top talent with a
-                    professional virtual address for websites, business cards,
-                    and marketing materials.
+                    Elevate your company&apos;s image and attract top talent
+                    with a professional virtual address for websites, business
+                    cards, and marketing materials.
                   </div>
                 </div>
               </div>
@@ -165,9 +165,9 @@ function Advantage() {
                     Proffesional Image & Enhanced Credibility{" "}
                   </div>
                   <div className="text-[12px] text-[#6B6B6BDE] mt-[5px]">
-                    Elevate your company's image and attract top talent with a
-                    professional virtual address for websites, business cards,
-                    and marketing materials.
+                    Elevate your company&apos;s image and attract top talent
+                    with a professional virtual address for websites, business
+                    cards, and marketing materials.
                   </div>
                 </div>
               </div>
@@ -214,9 +214,9 @@ function Advantage() {
                     Proffesional Image & Enhanced Credibility{" "}
                   </div>
                   <div className="text-[12px] text-[#6B6B6BDE] mt-[5px]">
-                    Elevate your company's image and attract top talent with a
-                    professional virtual address for websites, business cards,
-                    and marketing materials.
+                    Elevate your company&apos;s image and attract top talent
+                    with a professional virtual address for websites, business
+                    cards, and marketing materials.
                   </div>
                 </div>
               </div>
