@@ -9,10 +9,17 @@ import Logo from "./components/Logo";
 import Testimonial from "./components/Testimonial";
 import Questions from "./components/Questions";
 import Footer from "./components/Footer";
+import "./globals.css"
+import {Montserrat} from "@next/font/google"
+
+const mont = Montserrat({
+  subsets :['latin']
+})
 
 export default function Home() {
   return (
     <>
+    <main className={mont.className}>
     <div className=" bg-[#FAFAFA] overflow-x-hidden w-screen">
     <Offer></Offer>
     <Hero></Hero>
@@ -25,6 +32,7 @@ export default function Home() {
     <Questions></Questions>
     <Footer></Footer>
     </div>
+    </main>
     </>
   );
 }

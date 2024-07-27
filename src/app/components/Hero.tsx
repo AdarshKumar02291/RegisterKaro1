@@ -71,7 +71,7 @@ function Hero() {
           </div>
         </div>
         <div className=" flex flex-col items-center md:flex-row w-full md:justify-between md:px-[108px]">
-          <div className=" mt-12 md:mt-[208px]  w-[297px] md:w-[622px] text-white text-[24px] md:text-[48px] font-bold">
+          <div className=" mt-12 md:mt-0  w-[297px] md:w-[622px] text-white text-[24px] md:text-[48px] font-bold">
             Work From Anywhere, Grow Everywhere.
             <br />
             Get Your Instant Virtual Office
