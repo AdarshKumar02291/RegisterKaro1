@@ -169,9 +169,9 @@ const TWITTER = (
 
 function Footer() {
   return (
-    <div className="footer flex items-center justify-center gap-x-[60px]">
+    <div className="footer flex flex-col md:flex-row gap-y-[20px] max-md:py-8 max-md:px-[20px] items-center justify-center gap-x-[60px]">
       <div className=" bg-[#EFEFEF] w-[297px] md:w-[410px] h-fit md:h-[410px] flex flex-col items-center px-[14px] md:px-[60px] pt-[16px] pb-[18px]">
-        <div className="text-[20px] font-bold max-md:hidden">
+        <div className="text-[20px] font-bold ">
           Get in touch with us
         </div>
         <div className="text-[12px] text-center text-[#667085] mt-2">
@@ -227,7 +227,7 @@ function Footer() {
           Get a Detailed Quotation Now!
         </div>
       </div>
-      <div className="w-[444px]  flex flex-col items-center justify-center">
+      <div className=" w-[264px] md:w-[444px]  flex flex-col items-center justify-center">
         <div>
           {" "}
           <Image
@@ -239,7 +239,7 @@ function Footer() {
           ></Image>
         </div>
         <div className="mt-[45px]">Feel free to connect with us</div>
-        <div className=" w-full flex justify-between mt-[18px]">
+        <div className=" md:w-full flex justify-between mt-[18px]">
           <div className="flex">
             <div>{PHONE}</div> <div>+919311221210</div>
           </div>
@@ -255,12 +255,12 @@ function Footer() {
             704, Palm Court, Mehrauli-Gurgaon Rd, Gurugram, Haryana, 122007{" "}
           </div>
         </div>
-        <div className="flex mt-[45px] gap-x-[86px]">
+        <div className="flex mt-[45px] gap-x-[40px] md:gap-x-[86px]">
           {" "}
           {FACEBOOK} {INSTA} {LINKEDIN} {TWITTER}
         </div>
       </div>
-      <div><Image src={Location} alt="" className="h-[410px] w-[410px]" height={410} width={410}></Image></div>
+      <div><Image src={Location} alt="" className=" h-auto md:h-[410px] w-[271px]  md:w-[410px]" height={410} width={410}></Image></div>
     </div>
   );
 }

@@ -61,4 +61,12 @@ body{ font-family: 'Montserrat', sans-serif;
     background-repeat: no-repeat;
     height: fit-content;
   }
+  .footer{
+    background-image: url("./assets/Footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:fit-content;
+    overflow-x: hidden;
+    width: 100vw;
+  }
 }

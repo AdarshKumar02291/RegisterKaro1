@@ -28,7 +28,7 @@ function Guidance() {
           </div>
         </div>
 
-        <div>
+        <div className="">
           <Image
             src="https://i.ibb.co/YT32GSd/Group-1410123093.png"
             alt="Rectangle-2144-1"

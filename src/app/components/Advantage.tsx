@@ -12,7 +12,7 @@ function Advantage() {
             width={491}
           ></Image>
         </div>
-        <div className=" max-md:mt-[44px] w-full md:w-[490px] h-fit">
+        <div className=" max-md:mt-[44px] w-full md:w-[490px] h-fit max-md:hidden">
           <div>
             <div className="font-bold text-[24px]">
               Accessible. Affordable. Adaptable

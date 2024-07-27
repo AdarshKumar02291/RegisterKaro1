@@ -37,40 +37,92 @@ const RIGHTARROW = (
 
 function Testimonial() {
   return (
-    <div className="w-screen flex justify-center items-center bg-white pb-[88px]">
-      <div className="mt-[68px] w-[1091px] h-[294px] flex flex-col justify-center items-center">
-        <div className="font-bold text-[32px]">Client Testimonial</div>
-        <div className="mt-[72px] flex items-center gap-x-[64px]">
-          <div
-            className="rounded-full p-3 h-fit"
-            style={{ border: "1px solid #000000" }}
-          >
-            {LEFTARROW}
-          </div>
-          <div className="flex gap-x-[85px]">
-            <div>
-              <Image src={Dabur} alt="" height={175} width={204}></Image>
+    <>
+      <div className="max-md:hidden w-screen flex justify-center items-center bg-white pb-[88px]">
+        <div className="mt-[68px] w-[1091px] h-[294px] flex flex-col justify-center items-center">
+          <div className="font-bold text-[32px]">Client Testimonial</div>
+          <div className="mt-[72px] flex items-center gap-x-[64px]">
+            <div
+              className="rounded-full p-3 h-fit"
+              style={{ border: "1px solid #000000" }}
+            >
+              {LEFTARROW}
             </div>
-            <div className="w-[548px]">
+            <div className="flex gap-x-[85px]">
               <div>
-                The LaunchWise team is very professional and 100% transparent.
-                We would surely recommend them to everyone who wants to have a
-                new business setup or those who already have a company. Their
-                experts are thorough with all corners of business. They have
-                surely earned us as their permanent client.
+                <Image src={Dabur} alt="" height={175} width={204}></Image>
               </div>
-              <div className="mt-5 font-bold"> Sunil Duggal, CEO, Dabur Healthcare</div>
+              <div className="w-[548px]">
+                <div>
+                  The LaunchWise team is very professional and 100% transparent.
+                  We would surely recommend them to everyone who wants to have a
+                  new business setup or those who already have a company. Their
+                  experts are thorough with all corners of business. They have
+                  surely earned us as their permanent client.
+                </div>
+                <div className="mt-5 font-bold">
+                   Sunil Duggal, CEO, Dabur Healthcare
+                </div>
+              </div>
             </div>
-          </div>
-          <div
-            className="rounded-full p-3 h-fit"
-            style={{ border: "1px solid #000000" }}
-          >
-            {RIGHTARROW}
+            <div
+              className="rounded-full p-3 h-fit"
+              style={{ border: "1px solid #000000" }}
+            >
+              {RIGHTARROW}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div className="md:hidden w-screen flex justify-center items-center bg-white pb-[88px]">
+        <div className="mt-[68px] w-screen h-fit flex flex-col justify-center items-center">
+          <div className="font-bold text-[32px]">Client Testimonial</div>
+          <div className="mt-[32px] flex items-center gap-x-[32px]">
+            <div
+              className="rounded-full p-3 h-fit"
+             
+            >
+              {LEFTARROW}
+            </div>
+            <div className="flex gap-x-[85px]">
+              <div>
+                <Image src={Dabur} alt="" height={175} width={204}></Image>
+              </div>
+              {/* <div className="w-[548px]">
+                <div>
+                  The LaunchWise team is very professional and 100% transparent.
+                  We would surely recommend them to everyone who wants to have a
+                  new business setup or those who already have a company. Their
+                  experts are thorough with all corners of business. They have
+                  surely earned us as their permanent client.
+                </div>
+                <div className="mt-5 font-bold">
+                   Sunil Duggal, CEO, Dabur Healthcare
+                </div>
+              </div> */}
+            </div>
+            <div
+              className="rounded-full p-3 h-fit"
+              
+            >
+              {RIGHTARROW}
+            </div>
+          </div>
+          <div className="w-screen px-[50px] mt-[18px]">
+                <div>
+                  The LaunchWise team is very professional and 100% transparent.
+                  We would surely recommend them to everyone who wants to have a
+                  new business setup or those who already have a company. Their
+                  experts are thorough with all corners of business. They have
+                  surely earned us as their permanent client.
+                </div>
+                <div className="mt-5 font-bold">
+                   Sunil Duggal, CEO, Dabur Healthcare
+                </div>
+              </div> 
+        </div>
+      </div>
+    </>
   );
 }
 
